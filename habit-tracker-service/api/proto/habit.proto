@@ -1,0 +1,16 @@
+syntax = "proto3";
+
+package habits;
+option go_package = "github.com/doniacld/charmify/habit-tracker-service/api";
+
+// Habit represents an objective one wants to complete a given number of times per week.
+message Habit {
+  // Identifier of the habit
+  string id = 1;
+  // Name of the habit.
+  string name = 2;
+  // Description of the habit.
+  string description = 3;
+  // Frequency, expressed in times per week.
+  int32 weekly_frequency = 4;
+}
