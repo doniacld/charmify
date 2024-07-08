@@ -1,8 +1,9 @@
 # Charmify
 
-A habit tracker using [Charm CLI](https://github.com/charmbracelet/) libraries.
+Charmify your habits. A habit tracker using [Charm CLI](https://github.com/charmbracelet/) libraries.
 
-![](./tape/charmify.gif)
+![charmify gif using vhs](./tape/charmify.gif)
+The above GIF was recorded with [VHS](https://github.com/charmbracelet/vhs), you can view the [source tape](./tape/charmify.tape).
 
 ## Usage
 
@@ -13,7 +14,7 @@ make run_server
 
 Run the habit tracker CLI:
 ```yaml
-make tui
+make habittracker
 ```
 
 ## TODO
