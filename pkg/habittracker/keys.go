@@ -1,4 +1,4 @@
-package tui
+package habittracker
 
 import (
 	"github.com/charmbracelet/bubbles/key"

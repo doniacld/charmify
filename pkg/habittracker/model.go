@@ -1,4 +1,4 @@
-package tui
+package habittracker
 
 import (
 	"context"
@@ -77,11 +77,11 @@ func New(cli api.HabitsClient) *Model {
 	// for demo purposes
 	if len(habits) == 0 {
 		var defaultHabits = []habit.Habit{habit.Code, habit.Read, habit.Walk}
-		_, err = client.AddHabits(ctx, m.grpcClient, defaultHabits)
+		createdHabits, err := client.AddHabits(ctx, m.grpcClient, defaultHabits)
 		if err != nil {
 			log.Println(err)
 		}
-		habits = defaultHabits
+		habits = createdHabits
 	}
 
 	m.habits.SetItems(habitsToItems(habits))

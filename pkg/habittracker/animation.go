@@ -1,4 +1,4 @@
-package tui
+package habittracker
 
 type Animation struct {
 	selected int

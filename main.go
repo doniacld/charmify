@@ -7,7 +7,7 @@ import (
 
 	tea "github.com/charmbracelet/bubbletea"
 	"github.com/doniacld/charmify/pkg/client"
-	"github.com/doniacld/charmify/pkg/tui"
+	"github.com/doniacld/charmify/pkg/habittracker"
 )
 
 func main() {
@@ -29,7 +29,7 @@ func main() {
 		os.Exit(1)
 	}
 
-	model := tui.New(habitsClient)
+	model := habittracker.New(habitsClient)
 
 	p := tea.NewProgram(model)
 	if _, err := p.Run(); err != nil {
