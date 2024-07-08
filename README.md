@@ -23,10 +23,9 @@ make tui
 
 ## Resources
 
-- Slides of the talk given at GopherCon 2024
-- bubbletea library
-- lipgloss library
-- charm CLI YouTube channel
+- [Slides of the talk given at GopherCon 2024](https://speakerdeck.com/doniacld/build-a-glamorous-habit-tracker-using-charm-cli)
+- [BubbleTea library](https://github.com/charmbracelet/bubbletea/)
+- [Charm CLI YouTube channel](https://www.youtube.com/c/charmcli)
 
 ## Contribute
 
