@@ -39,6 +39,8 @@ func AddHabits(ctx context.Context, cli api.HabitsClient, habits []habit.Habit) 
 			}
 		}
 
+		createdHabits[i].TicksCount = created.TicksCount
+
 		log.Printf("habit %v created\n", h)
 	}
 
