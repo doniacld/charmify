@@ -14,7 +14,7 @@ make run_server
 
 Run the habit tracker CLI:
 ```yaml
-make habittracker
+make charmify
 ```
 
 ## TODO

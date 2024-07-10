@@ -1,5 +1,5 @@
 run_server:
 	cd habit-tracker-service && make run
 
-tui:
+charmify:
 	go run .
